@@ -9,7 +9,7 @@
     background-color: darkgreen;
     text-align: left;
     position: relative;
-    color: antiquewhite;
+    color: rgb(3, 31, 3);
     width: 220px;
     height: 60px;
     float: right;
@@ -18,6 +18,8 @@
     border-left: 12px solid greenyellow;
     border-bottom: 8px solid transparent;
     border-radius: 8px;
+
+
 }
 
 .avatar {
@@ -30,13 +32,19 @@
 
 .name {
     margin-top: 10px;
+    margin-left: 10pzx;
     position: absolute;
+    color: rgb(89, 28, 139);
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .postText {
     position: absolute;
-    margin-top: 20px;
-    
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(203, 238, 203);
 }
 
 .time {
