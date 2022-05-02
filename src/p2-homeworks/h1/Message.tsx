@@ -18,9 +18,9 @@ const Message: React.FC<MessageType> = (props: MessageType) => {
             <div className={s.post}>
                 <span className={s.name} >{props.name}</span>
                 <br />
-                {props.message}
+                <span className={s.postText}>{props.message}</span>
 
-                {props.time}
+                <span className={s.time}>{props.time}</span>
             </div>
 
         </div>

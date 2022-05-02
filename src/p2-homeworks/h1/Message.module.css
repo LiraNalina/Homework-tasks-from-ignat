@@ -2,31 +2,47 @@
     width: 300px;
     background-color: greenyellow;
     color: blueviolet;
-
-}
-
-img {
-    width: 100px;
+    height: 80px;
 }
 
 .post {
     background-color: darkgreen;
-    text-align: center;
+    text-align: left;
+    position: relative;
     color: antiquewhite;
-    width: 190px;
+    width: 220px;
+    height: 60px;
     float: right;
-    margin-top: 5px;
     margin-right: 5px;
-    border-left: 24px solid greenyellow;
-    border-bottom: 12px solid transparent;
+    margin-top: 5px;
+    border-left: 12px solid greenyellow;
+    border-bottom: 8px solid transparent;
+    border-radius: 8px;
 }
 
 .avatar {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 5px;
     border-radius: 40%;
-    width: 80px;
+    width: 50px;
 }
 
 .name {
+    margin-top: 10px;
+    position: absolute;
+}
+
+.postText {
+    position: absolute;
+    margin-top: 20px;
     
-    margin-right: 120px;
+}
+
+.time {
+    margin-top: 25px;
+    margin-right: 10px;
+    text-align: right;
+    float: right;
+    color: aquamarine;
 }
