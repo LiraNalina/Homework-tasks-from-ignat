@@ -9,17 +9,24 @@ export type MessageType = {
     time: string
 }
 
- const Message: React.FC<MessageType> = (props: MessageType) => {
+const Message: React.FC<MessageType> = (props: MessageType) => {
     return (
 
         <div className={s.message}>
-            <img src={props.avatar} alt="post"></img>
-            {props.name}
-            {props.message}
-            {props.time}
+            <img className={s.avatar} src={props.avatar} alt="post"></img>
+
+            <div className={s.post}>
+                <span className={s.name} >{props.name}</span>
+                <br />
+                {props.message}
+
+                {props.time}
+            </div>
+
         </div>
 
     )
 }
+
 
 export default Message

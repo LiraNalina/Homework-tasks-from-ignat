@@ -1,9 +1,32 @@
 .message {
-    width: 100px;
-    background-color: aqua;
+    width: 300px;
+    background-color: greenyellow;
     color: blueviolet;
+
 }
 
 img {
     width: 100px;
+}
+
+.post {
+    background-color: darkgreen;
+    text-align: center;
+    color: antiquewhite;
+    width: 190px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-left: 24px solid greenyellow;
+    border-bottom: 12px solid transparent;
+}
+
+.avatar {
+    border-radius: 40%;
+    width: 80px;
+}
+
+.name {
+    
+    margin-right: 120px;
 }
