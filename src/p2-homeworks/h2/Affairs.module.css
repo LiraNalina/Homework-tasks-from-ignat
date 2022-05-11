@@ -1,3 +1,9 @@
-.someClass {
+.test {
+background-color: rgb(57, 195, 195);
+}
 
+.pip {
+    color: aqua;
+    background-color: rgb(57, 195, 195);
+display: inline;
 }

@@ -18,8 +18,6 @@
     border-left: 12px solid greenyellow;
     border-bottom: 8px solid transparent;
     border-radius: 8px;
-
-
 }
 
 .avatar {
@@ -32,7 +30,6 @@
 
 .name {
     margin-top: 10px;
-    margin-left: 10pzx;
     position: absolute;
     color: rgb(89, 28, 139);
     position: absolute;

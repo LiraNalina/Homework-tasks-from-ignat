@@ -28,5 +28,4 @@ const Message: React.FC<MessageType> = (props: MessageType) => {
     )
 }
 
-
 export default Message
