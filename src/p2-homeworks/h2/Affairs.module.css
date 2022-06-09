@@ -1,9 +1,32 @@
-.test {
-background-color: rgb(57, 195, 195);
+.main {
+    display: grid
 }
 
-.pip {
-    color: aqua;
-    background-color: rgb(57, 195, 195);
-display: inline;
+.button {
+    margin: 2px;
+    width: 50px;
+    margin-top: 10px;
+    background: green;
+    color: rgb(18, 18, 127);
+}
+
+.affair {
+    display: flex;
+    margin-left: 20px;
+    line-height: 1.5;
+    color:rgb(193, 232, 219)
+}
+
+.priority {
+    display: block;
+    position: absolute;
+    margin-left: 140px;
+    color: rgb(129, 225, 129)
+}
+
+.delete {
+    display: block;
+    position: absolute;
+    background-color: aquamarine;
+    margin-left: 225px;
 }

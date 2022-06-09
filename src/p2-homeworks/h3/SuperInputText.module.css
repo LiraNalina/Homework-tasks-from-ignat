@@ -4,7 +4,7 @@ background-color: rgb(255, 251, 0);
 
 .errorInput {
     border: 3px solid lime;
-    background: red;
+    background: rgb(215, 239, 188);
 }
 
 .error {
